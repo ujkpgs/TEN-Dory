@@ -1,0 +1,106 @@
+content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 50vh
+}
+
+#game {
+	width: 50vw;
+	height: 90%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.bigone {
+	border: 3px black solid;
+	width: 30vh;
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.smollone {
+	border: 1px black solid;
+	width: 32%;
+}
+
+#options {
+	border: 1px solid red;
+	width: 20%;
+	height: 500px;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	padding: 10px;
+}
+
+#colorSelect h2 {
+	font-weight: bold;
+	font-family: Helvetica;
+	font-size: 200%;
+	padding-bottom: 30px
+}
+
+#flexCLR {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+#flexCLR h3 {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.colorSlctBtn {
+	padding: 5px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+
+/* LES COULEURS */
+.CLRrouge {
+	background-color: red;
+}
+
+.CLRvert {
+	background-color: green;
+}
+
+.CLRbleu {
+	background-color: blue;
+}
+
+.CLRcyan {
+	background-color: cyan;
+}
+
+.CLRjaune {
+	background-color: yellow;
+}
+
+.CLRviolet {
+	background-color: purple;
+}
+
+.CLRrose {
+	background-color: pink;
+}
+.CLRorange {
+	background-color: orange;
+}
+
+.CLRmarron {
+	background-color: brown;
+}
+
+.CLRgris {
+	background-color: gray;
+}
