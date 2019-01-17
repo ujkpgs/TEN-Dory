@@ -1,7 +1,7 @@
 let lilSquare = document.getElementsByClassName("smollone");
-let color1;
-let color2;
-let color3;
+let color1 = "red";
+let color2 = "blue";
+let color3 = "green";
 
 for (let i=0; i < lilSquare.length; i++) {
 	lilSquare[i].addEventListener("click", function() {
