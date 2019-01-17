@@ -2,13 +2,15 @@ let lilSquare = document.getElementsByClassName("smollone");
 let color1 = "red";
 let color2 = "blue";
 let color3 = "green";
+const btnCLR1 = document.querySelectorAll("#clrP1 .colorSlctBtn");
+const btnCLR2 = document.querySelectorAll("#clrP2 .colorSlctBtn");
+const btnCLR3 = document.querySelectorAll("#clrP3 .colorSlctBtn");
 
 for (let i=0; i < lilSquare.length; i++) {
 	lilSquare[i].addEventListener("click", function() {
 		changeClr(i);
 		hideOpt();
 	});
-	console.log(i);
 };
 
 function changeClr(oui) {
@@ -31,10 +33,6 @@ function hideOpt() {
 }
 
 // COLOR PICKER
-
-const btnCLR1 = document.querySelectorAll("#clrP1 .colorSlctBtn");
-const btnCLR2 = document.querySelectorAll("#clrP2 .colorSlctBtn");
-const btnCLR3 = document.querySelectorAll("#clrP3 .colorSlctBtn");
 
 for (let ib=0; ib < btnCLR1.length; ib++) {
 	btnCLR1[ib].addEventListener("click", function() {

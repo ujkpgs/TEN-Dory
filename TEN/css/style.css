@@ -64,8 +64,19 @@ content {
 	cursor: pointer;
 }
 
+/* Les règles */
+
+#rules {
+	border: 1px red solid;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	max-width: 25vw
+}
+
 
 /* LES COULEURS */
+
 .CLRrouge {
 	background-color: red;
 }
