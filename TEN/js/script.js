@@ -5,6 +5,18 @@ let color3 = "green";
 const btnCLR1 = document.querySelectorAll("#clrP1 .colorSlctBtn");
 const btnCLR2 = document.querySelectorAll("#clrP2 .colorSlctBtn");
 const btnCLR3 = document.querySelectorAll("#clrP3 .colorSlctBtn");
+const rulesbtn = document.getElementById("rulesPop");
+
+rulesbtn.addEventListener("click", toggleRules);
+
+function toggleRules() {
+	if (document.getElementById("rules").style.display != "flex") {
+		document.getElementById("rules").style.display = "flex";
+	}
+	else {
+		document.getElementById("rules").style.display = "none"
+	}
+}
 
 for (let i=0; i < lilSquare.length; i++) {
 	lilSquare[i].addEventListener("click", function() {
