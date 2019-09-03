@@ -65,7 +65,7 @@
 
 <div id="rules">
 		<h2>Règles du jeu</h2>
-		<h3>Un Morpion amélioré</h3>
+		<h3>Le Morpion amélioré</h3>
 		<p>Les règles sont fortement basées sur celles du jeu mondialement connu : le Morpion, également appelé <span class="italish">Tic Tac Toe</span>.</p>
 		<p>Lors de votre tour, vous devez placer votre pion sur une petite case. Une fois que vous possédez trois points alignés dans le même grand carré (appelés <span class="italish">zones</span>), la zone vous appartient. Elle devient un de vos points.</p>
 		<p>La partie se finit sur une victoire si vous parvenez à aligner trois points.</p>
